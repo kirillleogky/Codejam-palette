@@ -1,0 +1,137 @@
+.wrapper {
+  max-width: 1440px;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+.button {
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+/* Header */
+.header_block {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0px -15px 25px 10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -15px 25px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -15px 25px 10px rgba(0, 0, 0, 0.75);
+}
+
+.header_block-navigation {
+  height: 25px;
+  width: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1%;
+}
+
+.header_block-menu{
+  width: 24px;
+  height: 100%;
+  background: url(assets/menu.svg) no-repeat;
+}
+
+.header_block-title {
+  font-weight: 500;
+}
+
+.header_block-options {
+  width: 12px;
+  height: 25px;
+  margin-right: 1%;
+  background: url(assets/option.svg) no-repeat center;
+}
+
+.first_nav_block-text,
+.second_nav_block-text {
+  font-weight: 400;
+  opacity: 0.54;
+}
+
+/* Main */
+.main_block {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main_block-navigation {
+  width: 16%;
+  height: 74%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_block-nav_items {
+  width: 99%;
+  height: 42%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  -webkit-box-shadow: 0px 8px 15px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 8px 15px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 8px 15px -8px rgba(0, 0, 0, 0.75);
+}
+.main_block-nav_items:hover {
+  cursor: pointer;
+}
+
+.first_nav_block-item,
+.second_nav_block-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  padding-left: 10%;
+  background-color: white;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  transition: background-color .2s;
+}
+.first_nav_block-item:last-child {
+  opacity: 0.3;
+}
+.first_nav_block-item.active {
+  background-color: rgba(75, 0, 171, 0.5);
+}
+.icon {
+  margin-right: 20%;
+}
+
+.second_nav_block-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 0.5px solid black;
+  margin-right: 20%;
+}
+
+#curr-icon-input {
+  display: none;
+}
+
+.red-icon {
+  background-color: #ff0000;
+}
+
+.blue-icon {
+  background-color: #001eff;
+}
+
+.canvas {
+  background-color: rgba(112, 112, 112, 1);
+  -webkit-box-shadow: 0px 0px 35px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 35px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 35px -20px rgba(0, 0, 0, 0.75);
+}

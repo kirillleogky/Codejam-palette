@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>4x4</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link href="assets/font/roboto.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="header_block">
+      <div class="header_block-navigation">
+        <button type="button" name="button" class="header_block-menu button"></button>
+        <h1 class="header_block-title">CodeJam - Pallete</h1>
+      </div>
+      <button type="button" name="button" class="header_block-options button"></button>
+    </header>
+
+
+    <main class="main_block">
+
+      <div class="main_block-navigation">
+
+        <div class="main_block-nav_items first_nav_block">
+
+          <div class="first_nav_block-item" id="bucket">
+            <img src="assets/bucket.svg" alt="bucket" class="bucket-icon icon">
+            <p class="first_nav_block-text">Paint bucket</p>
+          </div>
+
+          <div class="first_nav_block-item" id="choose_color">
+            <img src="assets/choose.svg" alt="choose" class="choose-icon icon">
+            <p class="first_nav_block-text">Choose color</p>
+          </div>
+
+          <div class="first_nav_block-item" id="pencil">
+            <img src="assets/pencil.svg" alt="pencil" class="pencil-icon icon">
+            <p class="first_nav_block-text">Pencil</p>
+          </div>
+
+          <div class="first_nav_block-item">
+            <img src="assets/transform.svg" alt="transform" class="transform-icon icon">
+            <p class="first_nav_block-text">Transform</p>
+          </div>
+
+        </div>
+
+        <div class="main_block-nav_items second_nav_block">
+
+          <div class="second_nav_block-item">
+            <div class="second_nav_block-icon curr-icon"></div>
+            <input type="color" id="curr-icon-input" name="body" value="#01d53c">
+            <p class="second_nav_block-text">Current color</p>
+          </div>
+
+          <div class="second_nav_block-item">
+            <div class="second_nav_block-icon prev-icon"></div>
+            <p class="second_nav_block-text">Prev color</p>
+          </div>
+
+          <img src="assets/line.png" alt="line">
+
+          <div class="second_nav_block-item">
+            <div class="second_nav_block-icon red-icon"></div>
+            <p class="second_nav_block-text">red</p>
+          </div>
+
+          <div class="second_nav_block-item">
+            <div class="second_nav_block-icon blue-icon"></div>
+            <p class="second_nav_block-text">blue</p>
+          </div>
+
+        </div>
+      </div>
+
+      <canvas id="canvas" width="512" height="512" class="canvas"></canvas>
+
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "codejam-palette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirill Leogky",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
